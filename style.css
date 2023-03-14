@@ -1,0 +1,120 @@
+/*요소 숨기기*/
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Nanum Barun Gothic";
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1; /*배경 뒤로 보내기*/
+}
+
+#clock {
+  color: white;
+  font-size: 100px;
+  margin: 0 auto;
+  width: 400px;
+  margin-top: 60px;
+  text-shadow: 0 0 20px black;
+}
+
+#login-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#login-input {
+  width: 300px;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  text-indent: 10px;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+#greeting {
+  color: white;
+  font-size: 40px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px black;
+  font-weight: 100;
+}
+
+input::placeholder {
+  color: #333;
+}
+
+#todo-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#todo-input {
+  width: 300px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+  color: blackD;
+  font-size: 15px;
+  font-weight: 700;
+  background: transparent;
+  margin-top: 50px;
+  outline: none;
+}
+
+#todo-list {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+#quote {
+  /*포지션 고정하고 중앙정렬*/
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  bottom: 30px;
+  width: 400px;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+#write {
+  font-size: 17px;
+}
+
+#writer {
+  font-size: 20px;
+}
